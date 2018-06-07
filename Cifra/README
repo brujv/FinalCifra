@@ -1,0 +1,70 @@
+
+
+
+Cifra de César
+
+Cria uma janela, na qual o usuário insere uma palavra e retorna a palavra cifrada e decifrada, utilizando o algoritmo.
+
+![alt text](https://raw.githubusercontent.com/brujv/FinalCifra/Cifra/path/to/cifra.jpeg)
+
+
+
+
+Pseudocódigo
+
+Cria uma variável que armazene a palavra;
+
+Cria um laço de repetição para o processo de digitação da palavra{
+
+	A entrada de dados é através de um prompt;
+	se o campo estiver vazio {
+		é gerada uma janela de alert;
+	}
+}; até a inserção dos dados corretamente
+
+Cria uma função cipher que valida a palavra digitado{
+	Cria uma constante que armazena o valor de deslocamento;
+	Cria uma variável para armazenar o valor inicial verificado na tabela ASCII;
+	Cria uma variável para armazenar o valor após o cálculo;
+	Cria uma variável para armazenar a palavra gerada pela função;
+	Cria uma variável de tipo array para armazenar os valores da palavra codificada;
+	Para a palavra, percorre o seu tamanho {
+		aplica o método para verificar na tabela ASCII.
+		
+		Se, está no intervalo de maiúsculos {
+			aplica  o algoritmo para deslocamento}
+		 senão se está no intervalo de minúsculos {
+			aplica a fórmula para deslocamento;
+		}
+		armazena o valor no array;
+	}
+	Passa o valor no array que com o método converte os novos valores de acordo com a tabela ASCII;
+	Gera uma janela de alert com a nova palavra;
+	retorna  a nova palavra;
+}	
+
+Cria uma função decipher que valida a palavra digitado{
+	Cria uma constante que armazena o valor de deslocamento;
+	Cria uma variável para armazenar o valor inicial verificado na tabela ASCII;
+	Cria uma variável para armazenar o valor após o cálculo;
+	Cria uma variável para armazenar a palavra gerada pela função inicial;
+	Cria uma variável de tipo array para armazenar os valores da palavra codificada;
+	Para a palavra, percorre o seu tamanho {
+		aplica o método para verificar na tabela ASCII.
+		
+		Se, está no intervalo de maiúsculos {
+			aplica o algoritmo para deslocamento};
+		 senão se está no intervalo de minúsculos {
+			aplica o algoritmo para deslocamento;
+		}
+		armazena o valor no array;
+	}
+	Passa o valor no array que com o método converte os novos valores de acordo com a tabela ASCII;
+	Gera uma janela de alert com a  palavra;
+	retorna  a  palavra;
+}
+
+
+
+
+	
